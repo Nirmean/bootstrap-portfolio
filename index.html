@@ -19,7 +19,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0 text-center">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -39,33 +39,54 @@
       </nav>
 
     <!--Hero Section-->
-    <section class="hero-section"></section>
-       <div class="row">   
-          <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-            <div class="container-fluid py-5">
-            <h1 class="display-5 fw-bold">Hi, I'm Nirmean.</h1>
-            <p class="col-md-8 fs-4">I'm a Software Developer in Training. Get to know me and more about my journey to web development</p>
-            <ul class="social-links">
-              <li class="social-item">
-                <a class="social-link" href="#">Github</a>
-              </li>
-              <li class="social-item">
-                <a class="social-link" href="#">LinkedIn</a>
-              </li>
-            </ul>
-            </div>
-          </div>
-        </div> 
+    <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Hi, I'm Nirmean</h1>
+          <p class="lead text-muted">I'm a social impact advocate and software developer in training.</p>
+          <img class="my-image justify-content-center" src="../bootstrap-portfolio/images/Screenshot 2023-11-07 at 13.16.25.png">
+        </div>
     </section>
 
+    <!--About me/Skills Section-->
+    <section class="about container-fluid">
+      <div class="col-md-12 text-center">
+       <h2 class="featurette-heading">A bit about me!</h2>
+       <p class="lead">I've spent the last six years working in the social sector, teaming up with awesome NGOs and charities to tackle some of the planet's biggest issues. I'm all about solving problems and crafting smooth processes that get things done. I'm now on a new adventure, learning the ropes of front-end development, and excited to merge my love for making a positive impact with my newfound coding skills..</p>
+      </div>
+    </section>
+    <section class="skills">
+      <h5 class="text-center">Skills and Abilities</h5>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-6">
+            <ul class="dev-skills">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>GitHub</li>
+              <li>React</li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <ul class="soft-skills">
+               <li>Agile Project Management Practitioner</li>
+               <li>Strategy Development</li>
+               <li>Workshop Facilitation</li>
+               <li>Arabic Speaker</li>
+            </ul>
+          </div>
+        </div>
+    </section>
+    <hr class="featurette-divider">
 
     <!--Work Section-->
     <section class="portfolio container-fluid">
+      <h2 class="text-center">Recent Projects</h2>
       <div class="row text-center">
         <div class="col-lg-4">
           <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
   
-          <h2>Project 1</h2>
+          <h3>Project 1</h3>
           <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
           <p><a class="btn btn-secondary" href="#">View details »</a></p>
         </div><!-- /.col-lg-4 -->
@@ -73,7 +94,7 @@
         <div class="col-lg-4">
           <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
   
-          <h2>Project 2</h2>
+          <h3>Project 2</h3>
           <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
           <p><a class="btn btn-secondary" href="#">View details »</a></p>
         </div><!-- /.col-lg-4 -->
@@ -81,7 +102,7 @@
         <div class="col-lg-4">
           <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
   
-          <h2>Project 3</h2>
+          <h3>Project 3</h3>
           <p>And lastly this, the third column of representative placeholder content.</p>
           <p><a class="btn btn-secondary" href="#">View details »</a></p>
         </div><!-- /.col-lg-4 -->
@@ -90,19 +111,7 @@
     </section>
     <hr class="featurette-divider">
 
-    <!--About me/Skills Section-->
-    <section class="about container-fluid">
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-        </div>
-      </div>
-    </section>
-    <hr class="featurette-divider">
+    
 
     <!--Footer Section-->
     <section class="footer">
@@ -120,6 +129,8 @@
           <a class="nav-link" href="#">LinkedIn</a>
         </li>
       </ul>
+
+      
     </section>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
