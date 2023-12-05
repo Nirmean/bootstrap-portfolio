@@ -16,6 +16,10 @@ li {
     margin: 15px;
 }
 
+.bd-placeholder-img {
+    background-image: url(../images/Screenshot\ 2023-11-28\ at\ 22.18.19.png);
+}
+
 h3 {
     margin: 15px;
 }
