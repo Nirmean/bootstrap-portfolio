@@ -1,5 +1,6 @@
 # bootstrap-portfolio
 V2 of my Personal Portfolio using bootstrap!
+
 Deployed Link: https://nirmean.github.io/bootstrap-portfolio/
 
 <h2>Sections:</h2>
