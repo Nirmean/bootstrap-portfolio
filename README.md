@@ -1,7 +1,10 @@
 # bootstrap-portfolio
 V2 of my Personal Portfolio using bootstrap!
-
 Deployed Link: https://nirmean.github.io/bootstrap-portfolio/
+
+<h2>About this Project:</h2>
+In this project, I gave my personal portfolio a refresh by implementing bootstrap frameworks to layout my responsive webpage.
+
 
 <h2>Sections:</h2>
 <li>About me
