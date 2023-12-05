@@ -26,3 +26,14 @@ li {
 h3 {
     margin: 15px;
 }
+
+.featurette-divider {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mail {
+    height: 300px;
+    width: 600px;
+    justify-content: right;
+}
