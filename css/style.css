@@ -3,11 +3,8 @@
     border-radius: 100%;
 }
 
-.social-links {
-    display: flex;
+li {
     list-style: none;
-    justify-content: left;
-    margin-left: -35px;
 }
 
 .about {
