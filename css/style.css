@@ -1,0 +1,17 @@
+.my-image {
+    width: 10rem;
+    border-radius: 100%;
+    margin-left: -150px;
+}
+
+.social-links {
+    display: flex;
+    list-style: none;
+    justify-content: left;
+}
+
+.social-link {
+    margin: 3px;
+    text-decoration: none;
+    justify-content: left;
+}
